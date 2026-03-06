@@ -42,16 +42,17 @@ pip install -r requirements.txt
 Запустите приложение:
 
 streamlit run app.py
-Структура проекта
-workers_compensation_project/
-├── app.py                      # Основной файл Streamlit-приложения (entrypoint)
-├── analysis_and_model.py       # Страница с анализом и моделью
-├── presentation.py             # Страница с презентацией
-├── requirements.txt            # Зависимости проекта
-├── README.md                    # Описание проекта
-└── video/                       # Папка с видео-демонстрацией
-    └── demo.mp4
-Функционал приложения
+## Структура проекта
+
+| Путь | Описание |
+|------|----------|
+| `app.py` | Основной файл Streamlit-приложения (entrypoint) |
+| `analysis_and_model.py` | Страница с анализом и моделью |
+| `presentation.py` | Страница с презентацией |
+| `requirements.txt` | Зависимости проекта |
+| `README.md` | Описание проекта |
+| `video/demo.mp4` | Видео-демонстрация |
+## Функционал приложения
 Страница "Анализ и модель":
 Загрузка данных из OpenML
 
@@ -95,7 +96,7 @@ XGBoost — градиентный бустинг
 
 streamlit-reveal-slides — создание презентаций
 
-Результаты
+## Результаты
 В ходе работы были обучены и сравнены несколько моделей регрессии. Лучшая модель показала:
 
 R² Score > 0.85
@@ -114,10 +115,10 @@ ReportingDelay — задержка в отчетности
 
 ClaimDescription — тип травмы
 
-Видео-демонстрация
+## Видео-демонстрация
 Ссылка на видео с демонстрацией работы приложения:
 https://drive.google.com/file/d/1PcG0pY56HDrMD5i7Ba2Wne1ecZ8egBTp/view?usp=drive_link
 
-Автор
+## Автор
 Садыков Б.Ф.
 GitHub: https://github.com/Wasupit
