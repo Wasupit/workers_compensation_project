@@ -44,7 +44,6 @@ pip install -r requirements.txt
 streamlit run app.py
 Структура проекта
 workers_compensation_project/
-│
 ├── app.py                      # Основной файл Streamlit-приложения (entrypoint)
 ├── analysis_and_model.py       # Страница с анализом и моделью
 ├── presentation.py             # Страница с презентацией
