@@ -33,14 +33,16 @@
 
 1. Клонируйте репозиторий:
 git clone https://github.com/Wasupit/workers_compensation_project.git
-2. Перейдите в папку проекта:
-cd workers_compensation_project
-3. Установите зависимости:
-pip install -r requirements.txt
-4. Запустите приложение:
-streamlit run app.py
+Перейдите в папку проекта:
 
-##Структура проекта
+cd workers_compensation_project
+Установите зависимости:
+
+pip install -r requirements.txt
+Запустите приложение:
+
+streamlit run app.py
+Структура проекта
 workers_compensation_project/
 │
 ├── app.py                      # Основной файл Streamlit-приложения (entrypoint)
@@ -50,8 +52,7 @@ workers_compensation_project/
 ├── README.md                    # Описание проекта
 └── video/                       # Папка с видео-демонстрацией
     └── demo.mp4
-
-##Функционал приложения
+Функционал приложения
 Страница "Анализ и модель":
 Загрузка данных из OpenML
 
@@ -95,7 +96,7 @@ XGBoost — градиентный бустинг
 
 streamlit-reveal-slides — создание презентаций
 
-##Результаты
+Результаты
 В ходе работы были обучены и сравнены несколько моделей регрессии. Лучшая модель показала:
 
 R² Score > 0.85
@@ -114,9 +115,10 @@ ReportingDelay — задержка в отчетности
 
 ClaimDescription — тип травмы
 
-##Видео-демонстрация
+Видео-демонстрация
 Ссылка на видео с демонстрацией работы приложения:
 https://drive.google.com/file/d/1PcG0pY56HDrMD5i7Ba2Wne1ecZ8egBTp/view?usp=drive_link
 
-Автор: [Садыков Б.Ф]
+Автор
+Садыков Б.Ф.
 GitHub: https://github.com/Wasupit
